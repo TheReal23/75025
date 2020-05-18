@@ -235,70 +235,107 @@ hr {
   width: 107px;
   height: 107px;
   line-height: 116.25px; }
-.tile.tile-position-1-1 {
-  -webkit-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  transform: translate(0px, 0px); }
-.tile.tile-position-1-2 {
-  -webkit-transform: translate(0px, 121px);
-  -moz-transform: translate(0px, 121px);
-  transform: translate(0px, 121px); }
-.tile.tile-position-1-3 {
-  -webkit-transform: translate(0px, 242px);
-  -moz-transform: translate(0px, 242px);
-  transform: translate(0px, 242px); }
-.tile.tile-position-1-4 {
-  -webkit-transform: translate(0px, 363px);
-  -moz-transform: translate(0px, 363px);
-  transform: translate(0px, 363px); }
-.tile.tile-position-2-1 {
-  -webkit-transform: translate(121px, 0px);
-  -moz-transform: translate(121px, 0px);
-  transform: translate(121px, 0px); }
-.tile.tile-position-2-2 {
-  -webkit-transform: translate(121px, 121px);
-  -moz-transform: translate(121px, 121px);
-  transform: translate(121px, 121px); }
-.tile.tile-position-2-3 {
-  -webkit-transform: translate(121px, 242px);
-  -moz-transform: translate(121px, 242px);
-  transform: translate(121px, 242px); }
-.tile.tile-position-2-4 {
-  -webkit-transform: translate(121px, 363px);
-  -moz-transform: translate(121px, 363px);
-  transform: translate(121px, 363px); }
-.tile.tile-position-3-1 {
-  -webkit-transform: translate(242px, 0px);
-  -moz-transform: translate(242px, 0px);
-  transform: translate(242px, 0px); }
-.tile.tile-position-3-2 {
-  -webkit-transform: translate(242px, 121px);
-  -moz-transform: translate(242px, 121px);
-  transform: translate(242px, 121px); }
-.tile.tile-position-3-3 {
-  -webkit-transform: translate(242px, 242px);
-  -moz-transform: translate(242px, 242px);
-  transform: translate(242px, 242px); }
-.tile.tile-position-3-4 {
-  -webkit-transform: translate(242px, 363px);
-  -moz-transform: translate(242px, 363px);
-  transform: translate(242px, 363px); }
-.tile.tile-position-4-1 {
-  -webkit-transform: translate(363px, 0px);
-  -moz-transform: translate(363px, 0px);
-  transform: translate(363px, 0px); }
-.tile.tile-position-4-2 {
-  -webkit-transform: translate(363px, 121px);
-  -moz-transform: translate(363px, 121px);
-  transform: translate(363px, 121px); }
-.tile.tile-position-4-3 {
-  -webkit-transform: translate(363px, 242px);
-  -moz-transform: translate(363px, 242px);
-  transform: translate(363px, 242px); }
-.tile.tile-position-4-4 {
-  -webkit-transform: translate(363px, 363px);
-  -moz-transform: translate(363px, 363px);
-  transform: translate(363px, 363px); }
+  .tile.tile-position-1-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+  .tile.tile-position-1-2 {
+    position: absolute;
+    left: 0px;
+    top: 121px; }
+  .tile.tile-position-1-3 {
+    position: absolute;
+    left: 0px;
+    top: 243px; }
+  .tile.tile-position-1-4 {
+    position: absolute;
+    left: 0px;
+    top: 364px; }
+  .tile.tile-position-1-5 {
+    position: absolute;
+    left: 0px;
+    top: 485px; }
+  .tile.tile-position-2-1 {
+    position: absolute;
+    left: 121px;
+    top: 0px; }
+  .tile.tile-position-2-2 {
+    position: absolute;
+    left: 121px;
+    top: 121px; }
+  .tile.tile-position-2-3 {
+    position: absolute;
+    left: 121px;
+    top: 243px; }
+  .tile.tile-position-2-4 {
+    position: absolute;
+    left: 121px;
+    top: 364px; }
+  .tile.tile-position-2-5 {
+    position: absolute;
+    left: 121px;
+    top: 485px; }
+  .tile.tile-position-3-1 {
+    position: absolute;
+    left: 243px;
+    top: 0px; }
+  .tile.tile-position-3-2 {
+    position: absolute;
+    left: 243px;
+    top: 121px; }
+  .tile.tile-position-3-3 {
+    position: absolute;
+    left: 243px;
+    top: 243px; }
+  .tile.tile-position-3-4 {
+    position: absolute;
+    left: 243px;
+    top: 364px; }
+  .tile.tile-position-3-5 {
+    position: absolute;
+    left: 243px;
+    top: 485px; }
+  .tile.tile-position-4-1 {
+    position: absolute;
+    left: 364px;
+    top: 0px; }
+  .tile.tile-position-4-2 {
+    position: absolute;
+    left: 364px;
+    top: 121px; }
+  .tile.tile-position-4-3 {
+    position: absolute;
+    left: 364px;
+    top: 243px; }
+  .tile.tile-position-4-4 {
+    position: absolute;
+    left: 364px;
+    top: 364px; }
+  .tile.tile-position-4-5 {
+    position: absolute;
+    left: 364px;
+    top: 485px; }
+  .tile.tile-position-5-1 {
+    position: absolute;
+    left: 485px;
+    top: 0px; }
+  .tile.tile-position-5-2 {
+    position: absolute;
+    left: 485px;
+    top: 121px; }
+  .tile.tile-position-5-3 {
+    position: absolute;
+    left: 485px;
+    top: 243px; }
+  .tile.tile-position-5-4 {
+    position: absolute;
+    left: 485px;
+    top: 364px; }
+  .tile.tile-position-5-5 {
+    position: absolute;
+    left: 485px;
+    top: 485px; }
+
 
 .tile {
   position: absolute;
@@ -307,78 +344,126 @@ hr {
   transition: 100ms ease-in-out;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
-  transition-property: transform; }
-  .tile .tile-inner {
+  transition-property: transform; 
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
     font-size: 55px; }
-  .tile.tile-1 .tile-inner {
+  .tile.tile-1 {
     background: #eee4da; }
-  .tile.tile-2 .tile-inner {
+  .tile.tile-2 {
     background: #ede0c8; }
-  .tile.tile-3 .tile-inner {
+  .tile.tile-3 {
+    background: #ede0c8; }
+  .tile.tile-5 {
+    background: #ecdcb0; }
+  .tile.tile-8 {
+    background: #f0c9a0; }
+  .tile.tile-13 {
+    background: #efc098; }
+  .tile.tile-21 {
+    color: #f9f6f2;
+    background: #f1b985; }
+  .tile.tile-34 {
     color: #f9f6f2;
     background: #f2b179; }
-  .tile.tile-5 .tile-inner {
+  .tile.tile-55 {
+    color: #f9f6f2;
+    background: #f4a163; }
+  .tile.tile-89 {
     color: #f9f6f2;
     background: #f59563; }
-  .tile.tile-8 .tile-inner {
+  .tile.tile-144 {
+    color: #f9f6f2;
+    background: #f68c60; }
+  .tile.tile-233 {
     color: #f9f6f2;
     background: #f67c5f; }
-  .tile.tile-13 .tile-inner {
+  .tile.tile-377 {
+    color: #f9f6f2;
+    background: #f66e4b; }
+  .tile.tile-610 {
     color: #f9f6f2;
     background: #f65e3b; }
-  .tile.tile-21 .tile-inner {
+  .tile.tile-1597 {
     color: #f9f6f2;
-    background: #046380; }
-  .tile.tile-34 .tile-inner {
+    background: #ef9f92;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 45px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-1597 {
+        font-size: 25px; } }
+  .tile.tile-2584 {
     color: #f9f6f2;
-    background: #08939a; }
-  .tile.tile-55 .tile-inner {
+    background: #edcf72;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    font-size: 45px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-2584 {
+        font-size: 25px; } }
+  .tile.tile-4181 {
     color: #f9f6f2;
-    background: #12a3cc; }
-  .tile.tile-89 .tile-inner {
+    background: #edce67;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 45px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-4181 {
+        font-size: 25px; } }
+  .tile.tile-6765 {
     color: #f9f6f2;
-    background: #16c3dd; }
-  .tile.tile-144 .tile-inner {
+    background: #edcc61;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    font-size: 45px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-1597 {
+        font-size: 25px; } }
+  .tile.tile-10946 {
     color: #f9f6f2;
-    background: #c37093; }
-  .tile.tile-233 .tile-inner {
+    background: #edca55;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-2584 {
+        font-size: 15px; } }
+  .tile.tile-17711 {
     color: #f9f6f2;
-    background: #c99999; }  
-  .tile.tile-377 .tile-inner {
+    background: #edc850;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-17711 {
+        font-size: 15px; } }
+  .tile.tile-28657 {
     color: #f9f6f2;
-    background: #c4d390; }  
-  .tile.tile-610 .tile-inner {
+    background: #edc53f;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-28657 {
+        font-size: 15px; } }
+  .tile.tile-46368 {
     color: #f9f6f2;
-    background: #c2d370; }  
-  .tile.tile-987 .tile-inner {
-    color: #f9f6f2;
-    background: #e2e450; }  
-  .tile.tile-1597.tile-inner {
-    color: #f9f6f2;
-    background: #f1ef30;
-    font-size: 35px; }  
-  .tile.tile-2584 .tile-inner {
-    color: #f9f6f2;
-    background: #efd32f;
-    font-size: 35px; }  
-  .tile.tile-4181 .tile-inner {
+    background: #edc53f;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-46368 {
+        font-size: 15px; } }
+  .tile.tile-75025 {
     color: #f9f6f2;
     background: #edc22e;
-    font-size: 35px;}  
-  .tile.tile-6765 .tile-inner {
-    color: #f9f6f2;
-    background: #01b0f0;
-    font-size: 35px;}  
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 35px; }
+    @media screen and (max-width: 480px) {
+      .tile.tile-75025 {
+        font-size: 15px; } }
                            
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-size: 35px; }
+    font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
